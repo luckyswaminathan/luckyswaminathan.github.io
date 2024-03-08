@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+  background-color: #b4c098;
+  min-height: 100vh;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -12,9 +15,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.text {
+  color: #555D5C;
+  font: 100% Handlee;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #b4c098;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +32,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.style {
+  color: red;
 }
 
 @keyframes App-logo-spin {
