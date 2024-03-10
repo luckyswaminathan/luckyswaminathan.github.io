@@ -1,0 +1,28 @@
+.layout {
+    display: flex; /* Use flexbox to lay out the sidebar and the main container */
+  }
+  
+  .main-container {
+    flex-grow: 1; /* Allows the main container to take up the remaining space */
+  }
+  
+  .content {
+    padding: 20px; /* Add padding around your main content */
+    overflow-y: auto; /* In case the content is longer than the viewport */
+  }
+  
+
+  .header {
+    background-color: #b4c098;
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Updated */
+    font: 100% Handlee;
+    font-size: 30px;
+    color: #555D5C;
+    padding-top: 40px;
+    
+    
+}

@@ -1,15 +1,17 @@
-import Footer from "./Footer";
-import Header from "./Header";
-
 import React from "react";
-
+import Sidebar from "./Sidebar";  
+import './Layout.css'; 
 
 const Layout = ({ children }) => (
-    <div>
-      <Header />
-      <main>{children}</main>
-      <Footer />
+    <div className="layout">
+      <Sidebar />
+      <div className="main-container">
+        <header className="header">
+          Lakshman Swaminathan
+        </header>
+        <main className='content'>{children}</main>
+      </div>
     </div>
-  );
-  
-  export default Layout;
+);
+
+export default Layout;
